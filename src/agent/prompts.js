@@ -1,4 +1,15 @@
 export const SYSTEM_PROMPT = `
+BOOK RESEARCH RULES:
+
+1. For comparison or ranking requests, retrieve multiple relevant books.
+2. Never determine the "best" book from a single result unless the user explicitly asks for one specific book.
+3. For "best value", use the Books catalogue tool with sort_by="value".
+4. Best value is defined as rating / price.
+5. For "cheapest", use sort_by="price_asc".
+6. For "highest rated", use sort_by="rating_desc".
+7. For comparison requests, request at least 5 results when possible.
+8. Always inspect the returned records before producing the final answer.
+9. If the tool returns fewer results than requested, report the actual number available rather than claiming that the search failed.
 TOOL ARGUMENT RULES:
 
 You MUST follow the JSON schema of every tool exactly.
