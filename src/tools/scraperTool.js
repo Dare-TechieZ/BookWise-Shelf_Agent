@@ -7,7 +7,9 @@ export const scraperToolDefinition = {
   name: "search_books_catalogue",
 
   description:
-    "Search the collected Books to Scrape catalogue by title, category, rating, or price. " +
+    "Search the Books to Scrape catalogue by title, category, rating, price, " +
+    "or value. Use this tool to retrieve multiple books for comparison. " +
+    "For best-value requests, use sort_by='value'. " +
     "IMPORTANT: numeric parameters must be JSON numbers, not strings.",
 
   parameters: {
@@ -29,26 +31,37 @@ export const scraperToolDefinition = {
       min_rating: {
         type: "number",
         description:
-          "Minimum rating from 0 to 5. MUST be a JSON number, for example 4, NOT the string \"4\"."
+          "Minimum rating from 0 to 5. Example: 4"
       },
 
       max_price: {
         type: "number",
         description:
-          "Maximum price in GBP. MUST be a JSON number, for example 100, NOT the string \"100\"."
+          "Maximum price in GBP. Example: 15"
       },
 
       limit: {
         type: "integer",
         description:
-          "Maximum number of results. MUST be a JSON integer, for example 3, NOT the string \"3\"."
+          "Maximum number of results to return. Use 5-10 for comparison tasks."
+      },
+
+      sort_by: {
+        type: "string",
+        enum: [
+          "price_asc",
+          "price_desc",
+          "rating_desc",
+          "value"
+        ],
+        description:
+          "How to rank results. 'value' ranks books using rating divided by price."
       }
     },
 
     required: []
   }
 };
-
 
 export async function searchBooks(args = {}) {
 
@@ -64,7 +77,19 @@ export async function searchBooks(args = {}) {
     };
   }
 
-  const books = JSON.parse(raw);
+  let books;
+
+  try {
+    books = JSON.parse(raw);
+  } catch {
+    return {
+      success: false,
+      error: "books.json contains invalid JSON."
+    };
+  }
+
+  console.log("BOOKS LOADED:", books.length);
+  console.log("TOOL ARGS:", args);
 
   const query =
     String(args.query || "")
@@ -92,7 +117,7 @@ export async function searchBooks(args = {}) {
 
     const titleMatch =
       !query ||
-      String(book.title)
+      String(book.title || "")
         .toLowerCase()
         .includes(query);
 
@@ -118,9 +143,56 @@ export async function searchBooks(args = {}) {
     );
   });
 
+  const totalMatches = results.length;
+
+  // Calculate value score.
+  results = results.map((book) => {
+
+    const price = Number(book.price);
+    const rating = Number(book.rating);
+
+    const valueScore =
+      price > 0
+        ? rating / price
+        : 0;
+
+    return {
+      ...book,
+      value_score: Number(valueScore.toFixed(4))
+    };
+  });
+
+  // Sorting
+  switch (args.sort_by) {
+
+    case "price_asc":
+      results.sort(
+        (a, b) => Number(a.price) - Number(b.price)
+      );
+      break;
+
+    case "price_desc":
+      results.sort(
+        (a, b) => Number(b.price) - Number(a.price)
+      );
+      break;
+
+    case "rating_desc":
+      results.sort(
+        (a, b) => Number(b.rating) - Number(a.rating)
+      );
+      break;
+
+    case "value":
+      results.sort(
+        (a, b) => b.value_score - a.value_score
+      );
+      break;
+  }
+
   const limit = Math.min(
     Math.max(
-      Number(args.limit || 10),
+      Number(args.limit ?? 10),
       1
     ),
     30
@@ -130,7 +202,9 @@ export async function searchBooks(args = {}) {
 
   return {
     success: true,
-    count: results.length,
+    total_matches: totalMatches,
+    returned: results.length,
+    sort_by: args.sort_by || null,
     records: results
   };
 }
