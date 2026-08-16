@@ -1,0 +1,482 @@
+[
+  {
+    "title": "A Light in the Attic",
+    "price": 51.77,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "category": "Home Books Poetry A Light in the Attic",
+    "availability": "In stock (22 available)"
+  },
+  {
+    "title": "Tipping the Velvet",
+    "price": 53.74,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "category": "Home Books Historical Fiction Tipping the Velvet",
+    "availability": "In stock (20 available)"
+  },
+  {
+    "title": "Soumission",
+    "price": 50.1,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
+    "category": "Home Books Fiction Soumission",
+    "availability": "In stock (20 available)"
+  },
+  {
+    "title": "Sharp Objects",
+    "price": 47.82,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "category": "Home Books Mystery Sharp Objects",
+    "availability": "In stock (20 available)"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "price": 54.23,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "category": "Home Books History Sapiens: A Brief History of Humankind",
+    "availability": "In stock (20 available)"
+  },
+  {
+    "title": "The Requiem Red",
+    "price": 22.65,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+    "category": "Home Books Young Adult The Requiem Red",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "The Dirty Little Secrets of Getting Your Dream Job",
+    "price": 33.34,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+    "category": "Home Books Business The Dirty Little Secrets of Getting Your Dream Job",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "price": 17.93,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+    "category": "Home Books Default The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "price": 22.6,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+    "category": "Home Books Default The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "The Black Maria",
+    "price": 52.15,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+    "category": "Home Books Poetry The Black Maria",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "price": 13.99,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+    "category": "Home Books Default Starving Hearts (Triangular Trade Trilogy, #1)",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Shakespeare's Sonnets",
+    "price": 20.66,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+    "category": "Home Books Poetry Shakespeare's Sonnets",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Set Me Free",
+    "price": 17.46,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+    "category": "Home Books Young Adult Set Me Free",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "price": 52.29,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+    "category": "Home Books Sequential Art Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Rip it Up and Start Again",
+    "price": 35.02,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+    "category": "Home Books Music Rip it Up and Start Again",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "price": 57.25,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+    "category": "Home Books Music Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Olio",
+    "price": 23.88,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+    "category": "Home Books Poetry Olio",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "price": 37.59,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+    "category": "Home Books Science Fiction Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Libertarianism for Beginners",
+    "price": 51.33,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+    "category": "Home Books Politics Libertarianism for Beginners",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "It's Only the Himalayas",
+    "price": 45.17,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+    "category": "Home Books Travel It's Only the Himalayas",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "In Her Wake",
+    "price": 12.84,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+    "category": "Home Books Thriller In Her Wake",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "How Music Works",
+    "price": 37.32,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/how-music-works_979/index.html",
+    "category": "Home Books Music How Music Works",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+    "price": 30.52,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+    "category": "Home Books Food and Drink Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Chase Me (Paris Nights #2)",
+    "price": 25.27,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/chase-me-paris-nights-2_977/index.html",
+    "category": "Home Books Romance Chase Me (Paris Nights #2)",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Black Dust",
+    "price": 34.53,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/black-dust_976/index.html",
+    "category": "Home Books Romance Black Dust",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Birdsong: A Story in Pictures",
+    "price": 54.64,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/birdsong-a-story-in-pictures_975/index.html",
+    "category": "Home Books Childrens Birdsong: A Story in Pictures",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+    "price": 22.5,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+    "category": "Home Books Default America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Aladdin and His Wonderful Lamp",
+    "price": 53.13,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/aladdin-and-his-wonderful-lamp_973/index.html",
+    "category": "Home Books Default Aladdin and His Wonderful Lamp",
+    "availability": "In stock (19 available)"
+  },
+  {
+    "title": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+    "price": 40.3,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+    "category": "Home Books Nonfiction Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "Wall and Piece",
+    "price": 44.18,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+    "category": "Home Books Art Wall and Piece",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "The Four Agreements: A Practical Guide to Personal Freedom",
+    "price": 17.66,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+    "category": "Home Books Spirituality The Four Agreements: A Practical Guide to Personal Freedom",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+    "price": 31.05,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+    "category": "Home Books Nonfiction The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "The Elephant Tree",
+    "price": 23.82,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+    "category": "Home Books Thriller The Elephant Tree",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "The Bear and the Piano",
+    "price": 36.89,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-bear-and-the-piano_967/index.html",
+    "category": "Home Books Childrens The Bear and the Piano",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "Sophie's World",
+    "price": 15.94,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+    "category": "Home Books Philosophy Sophie's World",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "Penny Maybe",
+    "price": 33.29,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/penny-maybe_965/index.html",
+    "category": "Home Books Default Penny Maybe",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "Maude (1883-1993):She Grew Up with the country",
+    "price": 18.02,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+    "category": "Home Books Default Maude (1883-1993):She Grew Up with the country",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "In a Dark, Dark Wood",
+    "price": 19.63,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/in-a-dark-dark-wood_963/index.html",
+    "category": "Home Books Mystery In a Dark, Dark Wood",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "price": 52.22,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+    "category": "Home Books Thriller Behind Closed Doors",
+    "availability": "In stock (18 available)"
+  },
+  {
+    "title": "You can't bury them all: Poems",
+    "price": 33.63,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+    "category": "Home Books Poetry You can't bury them all: Poems",
+    "availability": "In stock (17 available)"
+  },
+  {
+    "title": "Slow States of Collapse: Poems",
+    "price": 57.31,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+    "category": "Home Books Poetry Slow States of Collapse: Poems",
+    "availability": "In stock (17 available)"
+  },
+  {
+    "title": "Reasons to Stay Alive",
+    "price": 26.41,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/reasons-to-stay-alive_959/index.html",
+    "category": "Home Books Nonfiction Reasons to Stay Alive",
+    "availability": "In stock (17 available)"
+  },
+  {
+    "title": "Private Paris (Private #10)",
+    "price": 47.61,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/private-paris-private-10_958/index.html",
+    "category": "Home Books Fiction Private Paris (Private #10)",
+    "availability": "In stock (17 available)"
+  },
+  {
+    "title": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+    "price": 23.11,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+    "category": "Home Books Nonfiction #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+    "availability": "In stock (17 available)"
+  },
+  {
+    "title": "Without Borders (Wanderlove #1)",
+    "price": 45.07,
+    "rating": 2,
+    "url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+    "category": "Home Books New Adult Without Borders (Wanderlove #1)",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "When We Collided",
+    "price": 31.77,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+    "category": "Home Books Contemporary When We Collided",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "We Love You, Charlie Freeman",
+    "price": 50.27,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/we-love-you-charlie-freeman_954/index.html",
+    "category": "Home Books Fiction We Love You, Charlie Freeman",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Untitled Collection: Sabbath Poems 2014",
+    "price": 14.27,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+    "category": "Home Books Poetry Untitled Collection: Sabbath Poems 2014",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+    "price": 44.18,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+    "category": "Home Books Nonfiction Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Unicorn Tracks",
+    "price": 18.78,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+    "category": "Home Books Fantasy Unicorn Tracks",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+    "price": 25.52,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+    "category": "Home Books History Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+    "price": 16.28,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+    "category": "Home Books Sequential Art Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "price": 31.12,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+    "category": "Home Books Nonfiction Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "This One Summer",
+    "price": 19.49,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/this-one-summer_947/index.html",
+    "category": "Home Books Sequential Art This One Summer",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "Thirst",
+    "price": 17.27,
+    "rating": 5,
+    "url": "https://books.toscrape.com/catalogue/thirst_946/index.html",
+    "category": "Home Books Fiction Thirst",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "The Torch Is Passed: A Harding Family Story",
+    "price": 19.09,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-torch-is-passed-a-harding-family-story_945/index.html",
+    "category": "Home Books Add a comment The Torch Is Passed: A Harding Family Story",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "The Secret of Dreadwillow Carse",
+    "price": 56.13,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html",
+    "category": "Home Books Childrens The Secret of Dreadwillow Carse",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+    "price": 56.41,
+    "rating": 1,
+    "url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+    "category": "Home Books Food and Drink The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "The Past Never Ends",
+    "price": 56.5,
+    "rating": 4,
+    "url": "https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html",
+    "category": "Home Books Mystery The Past Never Ends",
+    "availability": "In stock (16 available)"
+  },
+  {
+    "title": "The Natural History of Us (The Fine Art of Pretending #2)",
+    "price": 45.22,
+    "rating": 3,
+    "url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+    "category": "Home Books Young Adult The Natural History of Us (The Fine Art of Pretending #2)",
+    "availability": "In stock (16 available)"
+  }
+]
