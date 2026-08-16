@@ -17,7 +17,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch(`${API_URL}`, {
+      const response = await fetch(`${API_URL}/api/research`, { 
         method: "POST",
         headers: {
           "Content-Type": "application/json"
