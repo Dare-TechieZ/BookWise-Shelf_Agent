@@ -81,6 +81,8 @@ export async function searchBooks(args = {}) {
 
   try {
     books = JSON.parse(raw);
+    console.log("BOOKS LOADED:", books.length);
+    console.log("TOOL ARGS:", args);
   } catch {
     return {
       success: false,
