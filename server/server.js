@@ -34,7 +34,17 @@ app.post("/api/research", async (req, res) => {
     });
   }
 });
-
+app.get("/", (_req, res) => {
+  res.json({
+    ok: true,
+    service: "ResearchFlow AI API",
+    message: "Backend is running successfully.",
+    endpoints: {
+      health: "/api/health",
+      research: "POST /api/research"
+    }
+  });
+});
 app.listen(PORT, () => {
   console.log(`\n🚀 ResearchFlow API running at http://localhost:${PORT}`);
 });
