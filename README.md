@@ -601,7 +601,7 @@ You also need a **Groq API key**.
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Dare-TechieZ/BookWise-Shelf_Agent
 ```
 
 Move into the project:
@@ -633,11 +633,6 @@ Example:
 GROQ_API_KEY=your_groq_api_key
 ```
 
-Add any other environment variables required by the backend implementation.
-
-> **Important:** Never commit your `.env` file to GitHub.
-
----
 
 ## 4. Run the Backend
 
@@ -1022,17 +1017,7 @@ The current book catalogue is therefore a **demonstration environment for the ag
 
 ---
 
-# License
 
-Add the appropriate license for your project.
-
-Example:
-
-```text
-MIT License
-```
-
----
 
 # Author
 
