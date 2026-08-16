@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://bookwise-shelf-agent.onrender.com";
 
 function App() {
   const [query, setQuery] = useState("");
