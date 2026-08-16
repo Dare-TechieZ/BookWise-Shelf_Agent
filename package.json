@@ -3,12 +3,13 @@
   "version": "4.0.0",
   "type": "module",
   "scripts": {
-    "scrape": "node src/scraper/index.js",
-    "agent": "node src/agent/agent.js",
-    "test:groq": "node src/test-groq.js",
-    "test:agent": "node src/test-agent.js",
-    "server": "node server/server.js"
-  },
+  "start": "node server/server.js",
+  "scrape": "node src/scraper/index.js",
+  "agent": "node src/agent/agent.js",
+  "test:groq": "node src/test-groq.js",
+  "test:agent": "node src/test-agent.js",
+  "server": "node server/server.js"
+},
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
