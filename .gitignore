@@ -15,8 +15,6 @@ build/
 frontend/dist/
 frontend/build/
 
-# Generated scraper output
-output/
 
 # Logs
 *.log
