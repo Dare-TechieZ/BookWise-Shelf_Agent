@@ -1,5 +1,7 @@
 # 📚 BookWise — Autonomous Research Agent
 
+link: https://book-wise-shelf-agent.vercel.app/
+
 An **agentic AI research assistant** built with **Node.js, Express, React, Vite, and Groq**.
 
 BookWise demonstrates an autonomous tool-using workflow where a Large Language Model interprets a user's request, determines which available tool is appropriate, executes that tool, evaluates the collected evidence, and generates a final response.
