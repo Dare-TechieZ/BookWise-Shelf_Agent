@@ -26,6 +26,15 @@ Instead of responding directly to every request, the system allows the LLM to:
 8. Generate a final research answer.
 9. Record the process in a research trace.
 
+### Snapshots
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise1.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise2.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise3.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise4.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise5.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise6.png)
+![Alt Text](https://raw.githubusercontent.com/Dare-TechieZ/BookWise-Shelf_Agent/main/pics/bookwise7.png)
+
 ### Agent Workflow
 
 ```text
